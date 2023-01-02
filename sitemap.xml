@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://juliannicolai.com/</loc>
+  <lastmod>2021-01-21T09:59:02+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://juliannicolai.com/index.html</loc>
+  <lastmod>2021-01-21T09:59:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://juliannicolai.com/resume.html</loc>
+  <lastmod>2021-03-18T20:10:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://juliannicolai.com/projects.html</loc>
+  <lastmod>2021-01-21T09:59:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://juliannicolai.com/contact.html</loc>
+  <lastmod>2021-03-18T20:07:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://juliannicolai.com/about.html</loc>
+  <lastmod>2021-02-21T23:43:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://juliannicolai.com/docs/resume.pdf</loc>
+  <lastmod>2021-03-03T18:14:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://juliannicolai.com/projects/weather.html</loc>
+  <lastmod>2021-01-21T09:57:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://juliannicolai.com/projects/eyes.html</loc>
+  <lastmod>2021-01-21T09:57:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://juliannicolai.com/projects/pen.html</loc>
+  <lastmod>2021-01-21T09:57:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://juliannicolai.com/projects/lock.html</loc>
+  <lastmod>2021-01-21T09:57:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://juliannicolai.com/projects/batch.html</loc>
+  <lastmod>2021-01-27T09:55:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://juliannicolai.com/projects/ringer.html</loc>
+  <lastmod>2021-01-21T09:57:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://juliannicolai.com/projects/oscil.html</loc>
+  <lastmod>2021-01-27T09:55:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://juliannicolai.com/projects/strand.html</loc>
+  <lastmod>2021-01-21T09:57:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://juliannicolai.com/projects/fluid.html</loc>
+  <lastmod>2021-01-21T09:57:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://juliannicolai.com/projects/websites.html</loc>
+  <lastmod>2021-01-21T09:57:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

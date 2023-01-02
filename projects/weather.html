@@ -1,0 +1,271 @@
+
+<!-- Designed, created, and hosted by Julian Nicolai -->
+<!-- Start date: 29 December 2020 -->
+<!-- Last change: 5 January 2020 -->
+
+<!DOCTYPE html>
+
+<html lang="en-CA">
+
+    <head>
+      
+        <link rel="icon" type="image/ico" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Barlow:400,600" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+        <link rel = "stylesheet" type = "text/css" href = "../css/style.css">
+  
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Julian Nicolai">
+        <meta name="description" content="A showcase of hardware and software projects designed and created by Julian Nicolai">
+        <meta name="keywords" content="Portfolio, Julian Nicolai, Projects, Project, Engineering, Electrical, Mechanical, Hardware, Software">
+  
+        <title>Weather Satellite Images</title>
+  
+    </head>
+ 
+    <body>
+        
+        <script src="../js/script.js"></script>
+
+        <div id="container">
+
+            <div id="sidebar">
+
+                <div id="sidebar-container">
+
+                    <div id="logo">
+                        <a href="../index.html">
+                            <svg id="logo-img" viewBox="0 0 12000 12000" xmlns="http://www.w3.org/2000/svg">
+                                <g fill="#5c5c5c">
+                                <path d="m3205 11339c-115-4-239-12-275-18-36-5-92-13-125-16-58-6-259-40-300-50-11-2-60-14-110-25-338-79-652-218-895-398-98-73-293-267-362-362-309-422-478-968-544-1765-18-215-25-893-10-1017l8-68h1112 1113l6 358c13 690 46 1047 116 1233 46 121 144 220 257 260 116 41 291 35 398-14 163-75 230-228 256-592 6-90 10-1562 10-4142v-4003h1210c967 0 1210 3 1210 13 0 7 36 85 80 175 44 89 88 182 99 205s78 163 150 311 131 270 131 271 52 110 116 241c64 132 140 289 169 349 53 111 134 278 265 550 40 83 98 204 130 270s95 197 140 290c45 94 111 229 145 300 35 72 98 202 140 290 43 88 99 205 125 260s89 186 140 290c51 105 111 231 135 280 24 50 95 198 160 330 64 132 142 296 172 365 50 113 169 455 222 635 50 171 111 389 137 492 15 62 30 110 32 108 3-2-1-53-7-112-44-401-44-381-48-3201l-4-2682h1215 1216v4960 4960h-1214-1214l-20-42c-11-24-77-160-147-303s-151-309-180-370c-29-60-103-213-165-340-62-126-145-297-185-380-40-82-116-240-170-350s-132-272-175-360c-112-230-246-506-351-722-50-104-126-260-169-348s-124-254-180-370c-56-115-128-264-160-330s-115-237-185-380c-266-543-315-672-519-1375l-25-85v1580c-1 1573-7 1979-37 2360-28 367-57 563-124 825-80 313-194 560-359 775-106 139-242 275-376 376-372 281-861 448-1455 498-171 15-500 19-725 10z"/>
+                                </g>
+                                <g fill="#ff9c00">
+                                <path d="m3205 11339c-115-4-239-12-275-18-36-5-92-13-125-16-58-6-259-40-300-50-11-2-60-14-110-25-338-79-652-218-895-398-98-73-293-267-362-362-309-422-478-968-544-1765-18-215-25-893-10-1017l8-68h1112 1113l6 358c13 690 46 1047 116 1233 46 121 144 220 257 260 116 41 291 35 398-14 163-75 230-228 256-592 6-90 10-1562 10-4142v-4003h1210 1209l7 37c10 56-5 7261-16 7603-18 523-57 920-116 1180-45 195-73 292-122 422-152 402-412 722-777 960-297 193-707 333-1140 388-238 31-590 42-910 29z"/>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+    
+                    <div class="sidebar-link-container">
+                        <div class="sidebar-link">
+                            <a class="sidebar-link-click" href="../index.html">
+                                <span class="sidebar-link-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="sidebar-icon-img" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <polyline points="5 12 3 12 12 3 21 12 19 12" />
+                                        <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                                        <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+                                    </svg>
+                                </span>
+        
+                                <span class="sidebar-link-text">
+                                    Home
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="sidebar-link-container">
+                        <div class="sidebar-link">
+                            <a class="sidebar-link-click" href="../resume.html">
+                                <span class="sidebar-link-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="sidebar-icon-img" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <rect x="5" y="3" width="14" height="18" rx="2" />
+                                        <line x1="9" y1="7" x2="15" y2="7" />
+                                        <line x1="9" y1="11" x2="15" y2="11" />
+                                        <line x1="9" y1="15" x2="13" y2="15" />
+                                    </svg>
+                                </span>
+        
+                                <span class="sidebar-link-text">
+                                    Resume
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="sidebar-link-container">
+                        <div class="sidebar-link" style="background-color: var(--sidebar-highlight-color);">
+                            <a class="sidebar-link-click" href="../projects.html">
+                                <span class="sidebar-link-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="sidebar-icon-img" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4" />
+                                        <line x1="14.5" y1="5.5" x2="18.5" y2="9.5" />
+                                        <polyline points="12 8 7 3 3 7 8 12" />
+                                        <line x1="7" y1="8" x2="5.5" y2="9.5" />
+                                        <polyline points="16 12 21 17 17 21 12 16" />
+                                        <line x1="16" y1="17" x2="14.5" y2="18.5" />
+                                    </svg>
+                                </span>
+                                <span class="sidebar-link-text">
+                                    Projects
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="sidebar-link-container">
+                        <div class="sidebar-link">
+                            <a class="sidebar-link-click" href="../contact.html">
+                                <span class="sidebar-link-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="sidebar-icon-img" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <circle cx="12" cy="7" r="4" />
+                                        <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                                    </svg>
+                                </span>
+
+                                <span class="sidebar-link-text">
+                                    Contact
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="sidebar-link-container">
+                            <div class="sidebar-link">
+                                <a class="sidebar-link-click" href="../about.html">
+                                    <span class="sidebar-link-icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="sidebar-icon-img" width="28" height="28" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                            <circle cx="12" cy="12" r="9" />
+                                            <line x1="12" y1="8" x2="12.01" y2="8" />
+                                            <polyline points="11 12 12 12 12 16 13 16" />
+                                        </svg>
+                                    </span>
+            
+                                    <span class="sidebar-link-text">
+                                        About
+                                    </span>
+                                </a>
+                            </div>
+                    </div>
+
+                    <div id="back-to-top" class="sidebar-link-container">
+                        <div id="back-to-top-link" class="sidebar-link centerdiv">
+                            <a class="sidebar-link-click center" href="#">
+                                <span id="back-to-top-icon" class="sidebar-link-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg"  class="sidebar-icon-img" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <line x1="12" y1="4" x2="12" y2="14" />
+                                        <line x1="12" y1="4" x2="16" y2="8" />
+                                        <line x1="12" y1="4" x2="8" y2="8" />
+                                        <line x1="4" y1="20" x2="20" y2="20" />
+                                    </svg>
+                                </span>
+                                <span class="sidebar-link-text">
+                                    Back to Top
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div id="footer">Julian Nicolai © 2021</div>
+
+                </div>
+
+            </div>
+
+            <div id="main-content">
+                
+                <div id="header" class="content-item">
+                    WEATHER SATELLITE IMAGES
+                </div>
+
+                <div id="content-container" class="content-item directional-fade">
+
+                    <h1>Downloading Data from Space</h1>
+						
+                    <p>Using a homemade quadrifilar helical antenna, tuned specifically to the frequency 137.9 MHz, you can use something called an RTL-SDR dongle to interface the signals from satellites to your computer. Armed with a laptop and this antenna, in a mostly radio-quiet area I was able to download data from five different satellites and stations.</p>
+                    
+                    <p style="text-indent: 0px; margin-bottom: 10px;">Jump to satellite:</p>
+                    
+                    <ol style="margin-top: 0px;">
+                        <li><a href="#noaa" class="button jump-button sat" onclick="button_press(this);">NOAA</a></li>
+                        <li><a href="#meteor" class="button jump-button sat" onclick="button_press(this);">METEOR-M2</a></li>
+                        <li><a href="#goes" class="button jump-button sat" onclick="button_press(this);">GOES-16</a></li>
+                        <li><a href="#iss" class="button jump-button sat" onclick="button_press(this);">ISS SSTV</a></li>
+                    </ol>
+                    
+                    <h1>The Quadrifilar Helical Antenna</h1>
+                    
+                    <img src="images/satellite/quad_antenna.png" alt="Quadrifilar Helical Antenna" title="Quadrifilar Helical Antenna" style="float: right; margin-bottom: 20px; width: 25%" class="center content-img">
+                    
+                    <img src="images/satellite/pattern.png" alt="Radiation Pattern" title="Quadrifilar Helical Antenna Radiation Pattern" style="float: right; margin-left: 0px; width: 35%" class="center content-img">
+                    
+                    <p>The antenna itself is made of PVC tubing of a variety of lengths and diameters, and coaxial cable strung and soldered in the specific pattern you see in the photo to your right.</p>
+                    
+                    <p>The unique shape of the antenna is due to the polarization of the radio signals coming from NOAA and METEOR-M satellites. This shape produces (in this case just receives, no signals were sent) a sort of balloon shape, making it omnidirectional, meaning it can be pointed in any direction. This lack of direction also means it has a much lower gain, making it harder to receive signals, however because the satellites provide a fairly powerful signal and fly at a relatively low altitude, this is mitigated.</p>
+                    
+                    <h1 id="noaa">NOAA-15, NOAA-18, NOAA-19</h1>
+                    
+                    <p>The NOAA weather satellites are American owned instruments launched by NASA as a part of their <a href="https://en.wikipedia.org/wiki/Polar_Operational_Environmental_Satellites" class="link" target="_blank">POES series</a> of satellites. These polar orbiting spacecraft first began launching in the year 1960, until the final launch in 2009 of NOAA-19 before being replaced by the <a href="https://en.wikipedia.org/wiki/Joint_Polar_Satellite_System" class="link" target="_blank">JPSS series</a> of satellites.</p>
+                    
+                    <p>Acquiring data from these satellites requires a good bit of setup, planning, and preparation. Using a satellite tracker such as Orbitron, inputting your location determines the times of all the satellite passes and their respective elevation. The higher the elevation, the better the signal and the cleaner the image. To actually absorb the data and make it usable, a program such as SDR# is required. This turns the raw analog input from the antenna, through the RTL-SDR dongle as data, into a useable format, that is expressed as sound. You can also receive radio stations like this. Finally, this sound signal is then piped to a third program called WXtoImg, which then turns this audio into an actual image, both channels, visible and infrared. False color is applied, and the specific combinations of infrared and visible channels create useful weather data about the scanned area, such as precipitation and thermal maps.</p>
+                    
+                    <p>The following images were captured from NOAA-15 on 16 June 2018. The first image below is a false color map, the bottom right is a precipitation map, and the bottom left is the thermal map.</p>
+                    
+                    <img src="images/satellite/noaa15_falsecolor.jpg" alt="False Color Image from NOAA-15" title="False Color Image from NOAA-15" style="width:80%; margin-bottom: 20px;" class="centerdiv">
+                    
+                    <img src="images/satellite/noaa15_precipitation.jpg" alt="Precipitation Map from NOAA-15" title="Precipitation Map from NOAA-15" style="width:48.5%; float:right; margin-bottom: 20px;">
+                    
+                    <img src="images/satellite/noaa15_thermal.jpg" alt="Thermal Map from NOAA-15" title="Thermal Map from NOAA-15" style="width:48.5%; float:left; margin-bottom: 20px;">
+                    
+                    <p>These images are fine for basic weather analysis, but they are analog and fairly limited in their resolution and channels.</p>
+                    
+                    <h1 id="meteor">METEOR-M2</h1>
+                    
+                    <p>The first <a href="https://en.wikipedia.org/wiki/Meteor_(satellite)" class="link" target="_blank">METEOR</a> weather satellites were initially launched by the Russians in 1964 and since then many more have been put into orbit. Their most recent series, METEOR-M, and more specifically METEOR-M2, is one of their newer currently operational satellites. Similar to the NOAA satellites, in their polar orbit and general function (scanning the earth as it orbits), however METEOR-M2 is digital rather than analog and has much higher quality cameras, in addition to more color channels.</p>
+                    
+                    <p>The fact that METEOR-M2 is digital means a demodulator is required to understand the satellite constellation modulation for when SDR# is processing the incoming dataflow. The process and antenna are otherwise the same as when capturing NOAA satellites. The new audio signal is then piped into an <a href="https://en.wikipedia.org/wiki/Low-rate_picture_transmission" class="link" target="_blank">LRPT</a> decoder which then processes and separates the channels to create the images.</p>
+                    
+                    <p>The image below is my best received signal from METEOR-M2 downloaded on 10 July 2018. The elevation was 88&#176; (90&#176; is directly above you) so I was able to capture all the way from Baffin Island to Cuba. Not only that, but in view in the Atlantic ocean is <a href="https://en.wikipedia.org/wiki/2018_Atlantic_hurricane_season#Hurricane_Chris" class="link" target="_blank">Hurricane Chris</a>! Keep in mind the black bars are due to an unfortunate glitch onboard the satellite, where the signal overflows and the satellite streams 0's for a few seconds before the signal returns.</p>
+                    
+                    <img src="images/satellite/meteor_falsecolor.jpg" alt="METEOR-M2 Satellite Image" title="METEOR-M2 Satellite Image" style="width:80%; margin-bottom: 20px;" class="centerdiv">
+                    
+                    <h1 id="goes">GOES-16</h1>
+                    
+                    <img src="images/satellite/parabolic_radiation.png" alt="Radiation Pattern" title="Parabolic Grid Antenna Radiation Pattern" style="float: right; clear: right; margin: 0 20px 20px 20px; width: 35%; max-width: 280px;" class="center content-img">
+
+                    <p>Like the NOAA satellites at the start of this article, the <a href="https://en.wikipedia.org/wiki/Geostationary_Operational_Environmental_Satellite" class="link" target="_blank">GOES series</a> of satellites are also American Owned satellites launched by NASA and operated by <a href="https://en.wikipedia.org/wiki/National_Oceanic_and_Atmospheric_Administration" class="link"  target="_blank">NOAA</a>.  GOES series satellites are geostationary, which means they have an orbital period of exactly 24 hours, and orbit around the equator; thus, relative to our perspective on Earth, it stays in the same place in the sky.</p>
+                                        
+                    <p>The advantage of it being geostationary is of course is you can get a static full-disk view of the entire Earth, and you don't need to track your antenna to get a signal. The downside is the orbital altitude is much higher, in fact it orbits at an altitude of about 35,800 km, over 35,000 km higher than the polar-orbiting NOAA satellites. The consequence of this is that you need a much bigger antenna with high directional gain to concentrate the weak signal to the feed. You can see in the radiation pattern to the right, the massive spike in gain at the top where the antenna is directly pointed.</p>
+                    
+                    
+                    
+                    <p>Due to the fact I am in the North-East side of North America, I can really only reliably receive <a href="https://en.wikipedia.org/wiki/GOES-16" class="link" target="_blank">GOES-16</a> as the others (like <a href="https://en.wikipedia.org/wiki/GOES_15" class="link" target="_blank">GOES-15</a> or the pacific-positioned Japanese geostationary satellite <a href="https://en.wikipedia.org/wiki/Himawari_8" class="link" target="_blank">Himawari 8</a>) are much to low in the sky. With a frequency of 1.694 GHz, you can modify and mount a standard 2.4 GHz parabolic grid antenna (normally used to carry Wi-Fi signals) to receive enough data to make an image. See the above the center photo.</p>	
+                    
+                    <img src="images/satellite/goes_setup.jpg" alt="GOES Electronics" title="GOES Electronics" style="float: right; clear: right; margin: 0 0 20px 20px; width:18%" class="center content-img">
+                    
+                    <img src="images/satellite/goes_antenna.jpg" alt="Parabolic Grid Antenna" title="My Parabolic Grid Antenna" style="float: right; margin: 0 0 20px 20px; width:24%" class="center content-img">
+                    
+                    <p>Using a RTL-SDR, a special Low-Noise Amplifier &amp; SAW filter, and a Raspberry Pi loaded with <a href="https://github.com/pietern/goestools" class="link" target="_blank">GOESTOOLS</a>, you can receive, capture, and process full-disk images of the entire Earth! See the photo of the setup above on the far right. GOESTOOLS is an open-source Linux application developed by Pieter Noordhuis in collaboration with NASA so that amateur radio receivers could process the data coming from GOES satellites.</p>
+                    
+                    <p>Finally, below presents a received GOES-16 image after almost a year of setting up, attempts, configuration, tweaking, and general turmoil in receiving GOES-16 (it's over 35 million meters away!). Received in early September 2019, you can see Hurricane Dorian beginning to hit the coasts of Florida, as night begins to fall. The original resolution of the image after processing is almost 11,000 pixels square!</p>
+                    
+                    <img src="images/satellite/goes16.jpg" alt="GOES-16 Satellite Image" title="GOES-16 Satellite Image" style="width: 100%; margin: 0 0 20px 0;" class="center content-img">
+                    
+                    <h1 id="iss">ISS SSTV</h1>
+                    
+                    <p>Every few months, NASA hosts short events as a part of their <a href="https://en.wikipedia.org/wiki/Amateur_Radio_on_the_International_Space_Station" class="link" target="_blank">ARISS</a> program where the ISS begins to broadcast <a href="https://en.wikipedia.org/wiki/Slow-scan_television" class="link" target="_blank">SSTV</a> (Slow-Scan Television) images over it's uplink for a few days. This gives a chance for amateur radio receivers to try and capture and decode them! The images usually celebrate new or old satellites, astronauts or cosmonauts, or historical events.</p>
+                    
+                    <p>Below are three images I captured and decoded on July 1, 2018 repurposing the antenna I used to receive NOAA satellites. They are each collages of different launched amateur radio satellites of <a href="https://en.wikipedia.org/wiki/South-West_State_University" class="link" target="_blank">South-West State University</a>, a Russian public university established in 1964.</p>
+                    
+                    <img src="images/satellite/iss1.jpg" alt="ISS picture 1" title="ISS picture 1" style="width: 31%; margin: 0 0 0 0; float: left">
+                    
+                    <img src="images/satellite/iss3.jpg" alt="ISS picture 2" title="ISS picture 2" style="width: 31%; margin: 0 0 0 3.5%; float: left">
+                    
+                    <img src="images/satellite/iss2.jpg" alt="ISS picture 3" title="ISS picture 3" style="width: 31%; margin: 0 0 0 3.5%; float: left">
+
+                </div>
+
+            </div>
+            
+        </div>
+        
+    </body>
+
+</html>
