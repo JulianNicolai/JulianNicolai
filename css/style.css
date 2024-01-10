@@ -309,6 +309,26 @@ a.sidebar-link-click {
     text-align: right;
 }
 
+#proj-rover {
+    background-image: url(/imgs/thumbs/rover.jpg); 
+    background-position: 50% 45%;
+}
+
+#proj-mech_calc {
+    background-image: url(/imgs/thumbs/mech_calc0.jpg); 
+    background-position: 50% 45%;
+}
+
+#proj-solder_fan {
+    background-image: url(/imgs/thumbs/solder_fan.jpg); 
+    background-position: 50% 70%;
+}
+
+#proj-piano {
+    background-image: url(/imgs/thumbs/piano.jpeg); 
+    background-position: 50% 45%;
+}
+
 #proj-weather {
     background-image: url(/imgs/thumbs/weather.jpg); 
     background-position: 50% 45%;
